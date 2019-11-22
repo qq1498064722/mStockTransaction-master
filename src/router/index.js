@@ -38,6 +38,26 @@ const routes = [
     path:'/mine',
     name:'mine',
     component:() => import('../views/content/Mine.vue')
+  },
+  {
+    path:'/info',
+    name:'info',
+    component:() => import('../views/content/perfectInfo.vue')
+  },
+  {
+    path:'/inactivity',
+    name:'inactivity',
+    component:() => import('../views/content/inActivity.vue')
+  },
+  {
+    path:'/signup',
+    name:'signup',
+    component:() => import('../views/content/Signup.vue')
+  },
+  {
+    path:'/div',
+    name:'div',
+    component:() => import('../components/Success.vue')
   }
 ]
 

@@ -1,4 +1,5 @@
 <template>
+<!--    签到打卡-->
     <div>
         <div>
             <!--背景头像框-->
@@ -73,6 +74,7 @@
 </template>
 
 <script>
+    import {Dialog} from 'vant'
     export default {
         name: "Mine",
         data() {
@@ -82,7 +84,9 @@
         },
         methods: {
             success() {
-                Dialog.confirm({})
+                Dialog.confirm({
+                    message:"打卡成功"
+                })
             }
         }
     }
@@ -105,7 +109,6 @@
         right: 0;
         left: 0;
         bottom: 1.3rem;
-        z-index: 10;
         margin: auto;
         width: 2.4rem;
         height: 2.4rem;
@@ -119,7 +122,6 @@
         right: 0;
         left: 0;
         bottom: 1.3rem;
-        z-index: 10;
         margin: auto;
         width: 1.8rem;
         height: 1.8rem;
@@ -133,7 +135,6 @@
         right: 0;
         left: 0;
         bottom: 1.3rem;
-        z-index: 10;
         margin: auto;
         width: 1.6rem;
         height: 1.6rem;
@@ -147,7 +148,6 @@
         left: 0.44rem;
         right: 0.44rem;
         bottom: calc(50% - 2rem);
-        z-index: 10;
         border-radius: 10px;
         background: #fff;
         display: flex;

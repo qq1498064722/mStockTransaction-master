@@ -1,4 +1,5 @@
 <template>
+<!--    我要入会-->
     <div>
         <div class="user">
         <van-cell-group>
@@ -60,7 +61,7 @@
             />
         </div>
         <div class="submit">
-            <van-button type="info" style="background: linear-gradient(to right,rgb(109,180,254),rgb(67,145,225));"  @click="register">注册</van-button>
+            <van-button type="info" style="width: 80%;background: linear-gradient(to right,rgb(109,180,254),rgb(67,145,225));"  @click="register">注册</van-button>
             <p>已有账号，去登录</p>
         </div>
     </div>
@@ -97,9 +98,9 @@
 
 <style scoped>
     @import"../../assets/css/rem.css";
-.van-field{
-    text-align: left;
-}
+    .van-field{
+        text-align: left;
+    }
     .user{
         margin-top: 0.48rem;
     }
@@ -116,7 +117,7 @@
         margin-top: 0.48rem;
     }
     .submit>p{
-        font-size: 0.8rem;
+        font-size: 0.16rem;
         font-family: "苹方";
         background: linear-gradient(to right, rgb(109,180,254),rgb(67,145,225));
         -webkit-background-clip: text;
