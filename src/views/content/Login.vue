@@ -35,6 +35,11 @@
                 <div class="submit">
                     <van-button type="info" style="width: 80%;background: linear-gradient(to right,rgb(109,180,254),rgb(67,145,225));"  @click="register">登录</van-button>
                 </div>
+                <span style="
+                background: linear-gradient(to right, rgb(109,180,254),rgb(67,145,225));
+                -webkit-background-clip: text;
+                color: transparent;
+                margin-top: 0.12rem">忘记密码</span>
             </div>
         </div>
         <p>已有账号，去登录</p>
